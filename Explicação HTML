@@ -1,0 +1,28 @@
+<title>Gerenciamento de Configuração de Software</title>: Define o nome que aparecerá na aba do navegador quando você abrir a página.
+
+<link rel="stylesheet" href="style.css">: Conecta a página a um arquivo de estilo chamado style.css, que define como a página deve ser visualmente.
+
+<div class="titulo">: Um bloco de conteúdo com a classe titulo. O texto dentro deste bloco será centralizado, conforme o estilo definido no arquivo CSS.
+
+<h1>Gerenciamento de Configuração de Software</h1>: Um título principal da página, destacado em um tamanho grande.
+
+<div class="cntrlVersao">: Um bloco de conteúdo com a classe cntrlVersao. Dentro dele, há um subtítulo e um item de lista.
+
+<h1>Controle de versão</h1>: Um subtítulo grande para a seção sobre controle de versão.
+
+<li>: Um item de lista. Normalmente, ele deve estar dentro de uma lista ordenada (<ol>) ou não ordenada (<ul>), mas aqui está sendo usado fora dessas listas, o que não é ideal.
+
+<div class="cntrlMudancas">: Um bloco de conteúdo com a classe cntrlMudancas. Inclui um subtítulo e um item de lista.
+
+<h1>Controle de mudanças</h1>: Um subtítulo grande para a seção sobre controle de mudanças.
+
+<div class="integracao">: Um bloco de conteúdo com a classe integracao. Contém um subtítulo e um item de lista.
+
+<h1>Integração contínua</h1>: Um subtítulo grande para a seção sobre integração contínua.
+
+Usei o CSS para estilizar o site:
+.titulo: Define a aparência dos elementos com a classe titulo. O estilo text-align: center; faz com que o texto dentro desses elementos fique centralizado.
+
+.cntrlVersao, .cntrlMudancas, .integracao: Define a aparência dos elementos com essas classes. A regra font-family: Arial, Helvetica, sans-serif; define que o texto deve usar a fonte Arial, com Helvetica e uma fonte sem serifa (sans-serif) como alternativas, caso Arial não esteja disponível.
+
+.background: Define a aparência dos elementos com a classe background. A regra color: blueviolet; define a cor do texto como azul-violeta. No entanto, como a classe background não está sendo usada em nenhum lugar no HTML, esse estilo não tem efeito na página.
